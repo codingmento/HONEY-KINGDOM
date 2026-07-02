@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+
+
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+
+}
+
+/*  */
+header {
+    background-color: rgba(173, 128, 14, 0.39);
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header .icons div {
+    color: #fff;
+
+    font-size: 1.5rem;
+    margin-left: 1.1em;
+    cursor: pointer;
+
+
+}
+
+header .icons div :hover {
+    color: khaki;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+header span {
+    font-family: "Amiri", serif;
+
+    font-weight: 100;
+    margin: 50px;
+
+    color: chocolate;
+
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .7rem 3rem;
+    font-size: 1.7rem;
+    color: aliceblue;
+    background: #d3ad7f;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+
+}
+
+section pre {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 3px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.logo {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 10px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+div p {
+    font-family: "Amiri", serif;
+    color: chocolate;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: rgb(17, 17, 17);
+    margin-left: 3rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #121112;
+    font-size: 18px;
+}
+
+/* شكل زر الهمبرغر */
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: black;
+    /* نخفيه بالكمبيوتر */
+}
+
+nav a:hover,
+nav a:active {
+    color: rgb(125, 102, 24);
+    border-bottom: 3px solid rgb(96, 62, 7);
+}
+
+section {
+    padding: 200px 30px;
+}
+
+.main {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    background-size: cover;
+    background: url(Image\ 1.jpg);
+    background-position: bottom;
+
+
+}
+
+.main-btn {
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 1, 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    padding: 20px 30px;
+
+}
+
+.main-btn:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: rgb(253, 255, 240);
+    font-size: 1.7em;
+    padding-right: 30px;
+    padding: 20px 20px 20px 10px;
+}
+
+.title {
+    display: block;
+    justify-content: center;
+
+    color: gold;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-card.large-card {
+
+
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 10em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+
+
+}
+
+
+.add-cart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 20px;
+    min-height: 30px;
+    width: 110px;
+    background: linear-gradient(135deg, #9b8325, #6e6824);
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-cart:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(137, 80, 18, 0.4);
+}
+
+/* shop */
+
+/* icons */
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.cart-icon:hover {
+    transform: scale(1.1);
+}
+
+.cart-icon {
+    position: fixed;
+    top: 90px;
+    /* المسافة من فوق */
+    right: 20px;
+    /* خليها عالطرف اليمين */
+    background: #fff;
+    padding: 10px 14px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+#cartCount {
+    background: rgb(143, 90, 41);
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+
+
+#cartCount {
+    position: absolute;
+    top: -25px;
+    right: -7px;
+    background: #7b6109;
+    color: white;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+/* بقلبها */
+
+/* السله */
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+
+/* كرت السلة */
+.cart-card {
+    position: relative;
+    background: #675417;
+
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: pop 0.3s ease;
+}
+
+/* زر الإغلاق */
+.close-cart {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.close-cart:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* العنصر داخل السلة */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cart-item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.cart-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* الاسم تحت بعض */
+    justify-content: center;
+}
+
+.cart-item-name {
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+}
+
+.cart-item-price {
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    color: #f3e8ff;
+}
+
+
+/* زر الحذف */
+.delete-item {
+    background: transparent;
+    border: none;
+    color: #f2f1f1;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-item:hover {
+    transform: scale(1.2);
+}
+
+/* زر الطلب عبر واتساب */
+.order-btn {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    color: #87795a;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background: #f3e8ff;
+}
+
+/* الإجمالي */
+.cart-total {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.product-card.large-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.img-wrapper {
+    color: black;
+    font-size: 8em;
+    text-align: center;
+    margin: -30px -50px;
+    padding-top: -500px;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.info h3 {
+    color: #7c8b25;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.info p {
+    margin: 5px;
+    text-align: center;
+
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#Search {
+    width: 480px;
+    height: 40px;
+    margin: 10px;
+
+    padding: 4px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+button {
+    width: 45%;
+    height: 3px;
+    border: #000;
+    cursor: pointer;
+    background: rgb(120, 94, 10);
+    color: #fff;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #453603;
+    letter-spacing: 1px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 10em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.project-card:hover {
+    opacity: 0.7;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 2em;
+}
+
+.project-category {
+
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.more-details {
+    text-decoration: none;
+    color: paleturquoise;
+}
+
+.more-details:hover {
+    color: #9f7b2c;
+}
+
+.cntact .icon {
+    font-size: 4.5em;
+
+}
+
+.contact .info h3 {
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: chocolate;
+}
+
+.cardd {
+    margin: 20px;
+}
+
+.cardd:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
+
+.footer .credit {
+    font-size: 1rem;
+    color: #f9f8f8;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.footer .credit span {
+    color: chocolate;
+}
+
+.footer .credit {
+    font-size: 20px;
+    padding: 0;
+
+}
+
+@media (max-width:1648px) {
+    .main {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+        background-size: cover;
+
+
+
+    }
+
+}
+
+@media (max-width:890px) {
+    div p {
+        margin: 0;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:860px) {
+
+    div p {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+
+    }
+
+    .project-category {
+        font-size: 0.7rem;
+        margin: 10px;
+
+    }
+
+    .footer {
+
+
+        display: block;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media(min-width:780px) {
+    div p {
+        margin: 0;
+        padding: 0;
+        font-size: 0.5;
+    }
+
+    #nav-menu a {
+        margin: 9px;
+    }
+
+}
+
+
+
+@media (max-width: 910px) {
+    .home-img {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        /* يخلي الروابط تبدا من الطرف */
+        background-color: #b99a34f3;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        /* تبقى بجانب الشاشة مش تغطيها كلها */
+        width: 170px;
+        /* عرض صغير */
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(162, 146, 76, 0.1);
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+
+}
+
+@media(max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+
+    }
+
+
+
+
+
+    header span {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    section pre {
+        margin: 90px 70px 0px -40px;
+        font-weight: 300;
+        font-size: 0.9em;
+    }
+
+
+
+
+
+    .title {
+        font-size: 1.8em;
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+
+
+
+    #Search {
+        width: 200px;
+        height: 40px;
+
+
+    }
+
+
+
+
+
+}
