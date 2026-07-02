@@ -4,6 +4,7 @@ A responsive product website built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 Click here to view the website
+https://codingmento.github.io/HONEY-KINGDOM/
 
 ## 📸 Preview
 
